@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="Time Based Mode"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="15dp"
+
+        android:backgroundTint="@color/purple_500"
+        android:text="Add Time"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="View Saved Times"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
